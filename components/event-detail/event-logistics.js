@@ -21,7 +21,7 @@ function EventLogistics(props) {
       </div>
       <ul className={classes.list}>
         <LogisticsItem icon={DateIcon}>
-          <time>{humanReadableDate}</time>
+          <time>{humanReadableDate}</time>|
         </LogisticsItem>
         <LogisticsItem icon={AddressIcon}>
           <address>{addressText}</address>
